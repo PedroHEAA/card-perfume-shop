@@ -1,0 +1,11 @@
+:root{
+    --background-color: hsl(30, 38%, 92%);
+    --price-color: hsl(158, 36%, 37%);
+    --font-size: 14px;
+    --perfume-name: hsl(212, 21%, 14%);
+    --text-color: hsl(228, 12%, 48%);
+    --white-color: hsl(0, 0%, 100%);
+    --secundary-font: 'Fraunces', serif;
+    --active-status: rgba(26,64,49,255);
+
+}

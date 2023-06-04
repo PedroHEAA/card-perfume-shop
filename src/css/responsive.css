@@ -1,0 +1,40 @@
+@media (min-width:840px) {
+    .container{
+        display: grid;
+        grid-template-areas: 
+        "perfume-image product-info";
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 512px;
+    }
+    
+    .container .product-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    .container .perfume-image img{
+        grid-area: perfume-image;
+        grid-template-columns: 350px;
+        border-radius: 10px 0px 0px 10px;
+        height: 100%;
+    }
+
+    .container .product-info{
+        grid-area: product-info;
+        grid-template-columns: 350px;
+    }
+
+    .container .product-info .product-title{
+        font-size: 26px;
+    }
+
+    .container .product-info div .price{
+        font-size: 26px;
+    }
+
+    .container .product-info a{
+        padding: 10px;
+    }
+}
